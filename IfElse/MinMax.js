@@ -4,7 +4,7 @@ let min_val=randomVal;
 let max_val=randomVal;
 for(var i=2;i<=5;i++)
 {
-var randomVal=Math.floor(Math.random()*1000);
+randomVal=Math.floor(Math.random()*1000);
 console.log("Random value "+i+" : " +randomVal);
 if(randomVal<min_val)
 {
