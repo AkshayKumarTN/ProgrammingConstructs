@@ -2,7 +2,6 @@ var prompt = require('prompt-sync')();
 const string = prompt('Enter a Number: ');  
 ValidatePalindrome(string);
 
-
 function ValidatePalindrome(string) {  
     const len = string.length;  
     var flag=true;

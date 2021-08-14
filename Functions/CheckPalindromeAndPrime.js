@@ -15,7 +15,6 @@ else if(result1)
     console.log(number+" is a Not Prime Number But its a Palindrome");
 }
 
-
 function ValidatePalindrome(string) {  
     const len = string.length;  
     for (let i = 0; i < len / 2; i++) {  
