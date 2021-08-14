@@ -37,7 +37,12 @@ function CheckPrime(number)
           console.log("1 is Neither Prime Nor Composite Number.");
           return false;
     }
-    else if (number > 1)
+    else if(number==2)
+    {
+        console.log(number+" is a Prime Number");
+            return true;
+    }
+    else if (number > 2)
     {
         for (let i = 2; i < number; i++)
         {
